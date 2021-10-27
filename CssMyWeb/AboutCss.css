@@ -1,0 +1,238 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 15-Oct-2021, 12:14:24
+    Author     : abiel
+*/
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+img
+{
+
+    float: left;
+
+    opacity: 20;
+    background-attachment: fixed;
+    margin: 35px;
+
+}
+
+
+header{
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 10px auto;
+
+
+
+    color: #2B4342;
+    font-size: 20px;
+    font-family: comic;
+    font-weight: normal;
+    text-align: center;
+
+    height: 130px;
+    background-color: rgba(212,231,246,01); 
+
+}
+
+
+/*START CODE FOR NAV HORIZONTAL ON HEADER*/
+header ul {
+    width: 30%;
+    float: right;
+    margin:-10px;
+}       
+
+
+/*FINISH CODE FOR NAV HORIZONTAL ON HEADER*/
+
+
+
+
+
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #663300;
+    letter-spacing: 4px;
+    font-size: 22px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn-neon:hover{
+    background: #ffcc99;
+    box-shadow: 0 0 10px #ffcc99, 0 0 40px #ffcc99, 0 0 80px #ffcc99;
+    transition-delay: 0.5s;
+}
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ffcc99);
+}
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 0.25s;
+}
+
+#span2{
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #ffcc99);
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 0.5s;
+    transition-delay: 0.125s;
+}
+
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #ffcc99);
+}
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}
+
+#span4{
+    bottom: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #ffcc99);
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 0.5s;
+    transition-delay: 0.350s;
+}
+
+
+
+h2.ontop {
+    position: relative;
+    top: 0;
+}
+.bar {
+    height: 4.5em;
+    padding: 1.2%;
+    opacity: 0.9;
+    border-top: 7px solid #ccc;
+    border-bottom: 7px solid #ccc;
+    margin-top: 4.2em;
+    text-align: center;
+    color: #2B4342;
+
+    background: #FFEEEE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+body{
+
+    background-image: url(../imagesMyWeb/AboutBackground.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    text-decoration: none;
+    font-family: comic;
+    text-align: justify;
+}
+
+main{
+    
+    font-family: comic;
+    color: #2B4342;
+    font-size: 135%;
+
+    width: 60%;
+    margin: 160px auto 20px auto;
+
+    background-color: rgba(212,231,246,0.8); /* to take out the opacity on the pictures */
+
+    /*opacity: 0.9*/
+
+
+}
+
+p{
+    line-height: 1.9em;
+
+    margin: 35px;
+
+
+}
+
+
+
+
+
+/*FINISH EFECT FOR THE IMAGES*/
+
+
+
+
+
+.image-flag{
+    float: left;
+    width: 17%;
+    margin:-10px;
+    background-color: rgba(117,224,220,0.1); 
+
+}
+
+.img-logo{
+    
+    margin-top: 0;
+    top: -45px;
+  
+    position: absolute;
+    
+}
+
+
+
+
+
+
+
+
+.galery2-cont2{
+
+    display: flex;
+    justify-content: center;
+   
+}
